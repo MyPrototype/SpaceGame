@@ -33,23 +33,8 @@ creditsScreen.draw = () => {
   creditsScreen.stars.forEach((value) => drawPoint(...value));
   // add text
   writeCentered(50, "SPACEWAR", 4);
-  writeCentered(100, "almost from scratch", 2);
   writeText(50, 200, "This is an attempt of making the game spacewar using", 1);
-  writeText(50, 220, "modern programming languages. You can find more", 1);
-  writeText(50, 240, "information about the project in it's github page:", 1);
-  writeCentered(280, "https://github.com/luxedo/spacewar-almost-from-scratch", 0.8);
-  writeText(50, 320, "Thanks to meroleroman7, Shaun105, jeremysykes and", 1);
-  writeText(50, 340, "ProjectsU012 for the sound assets.", 1);
-  writeText(50, 360, "Thanks to the playtesters 00jknight, Baino, Maria and", 1);
-  writeText(50, 380, "Thiago Harry", 1);
-  writeText(50, 400, "Thanks for the support of Kaska, rgk, 8Observer8, ", 1);
-  writeText(50, 420, "StorytellerVR and Igor Georgiev", 1);
-  writeText(50, 440, "Thanks to Lee Reilly for the PR fixing a typo", 1);
-  writeCentered(480, "This project is under a GNU GPL3 license. Have fun! ;)", 0.9);
-  writeCentered(500, "Copyright (C) 2016  Luiz Eduardo Amaral", 0.9);
-  writeCentered(520, "<luizamaral306(at)gmail.com>", 0.9);
-
-  writeCentered(550, "esc - go back");
+  writeCentered(550, "Esc - go back");
   writeCentered(570, VERSION);
 }
 creditsScreen.update = () => {
@@ -70,7 +55,7 @@ startScreen.draw = () => {
   startScreen.stars.forEach((value) => drawPoint(...value));
 
   startScreen.arrow.draw()
-  writeCentered(80, "SPACEWAR", 5);
+  writeCentered(80, "SPACE GAME", 5);
   writeCentered(150, "almost from scratch", 2.7);
   writeCentered(280, "1p start", 2);
   writeCentered(330, "2p start", 2);
